@@ -5,7 +5,7 @@ function sendEmail(event){
         visitorEmail: document.getElementById('visitor-email').value,
         message: document.getElementById('message').value,
     };
-    console.log(msgForm);
+    emailjs.send('service_oos6518','template_pvbbqr9',msgForm,'user_kiqzH3B0iil4Aqd5GL188');
 
 }
 
