@@ -56,6 +56,16 @@ This is the official artistpage for Nikolay Cranner. It is designed to be respon
 
 ## Features
 
+-   Fully interactive contact form with greeting message when the form is submitted. 
+
+-   The contact form have input validation, and the visitor will get an auto reply to their email.
+
+<h2 align="center">
+    <img src="assets/images/screenshots/contact/contact-pre.JPG">
+    <img src="assets/images/screenshots/contact/contact-after.JPG">
+</h2>
+
+
 -   Responsive on all device sizes
 
 -   Interactive elements
@@ -73,7 +83,6 @@ top of the page. It is visible all time, to make it easy for the user to move to
 
 
 ## Features to be added/fixed
--   Complete submit button to be fully functional.
 -   Make images under “About” section smaller, becomes too big on desktop.
 -   Make the social media links more accesible.
 -   Indicate on the cover arts that they are clickable.
@@ -91,9 +100,12 @@ top of the page. It is visible all time, to make it easy for the user to move to
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-   [JavaScript](https://www.javascript.com/about)
 
 ### Frameworks, Libraries & Programs Used
-
+1. [EmailJs](https://www.emailjs.com/)
+    -EmailJs was used for interactivity on the contact form. Specifically to forward the contact form when submitted to a real email address.
+    Also to genereate auto replies back to the sender when contact form was submitted.
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
     - Hover.css was used on the navigation menu.
 11. [Git](https://git-scm.com/)
@@ -106,6 +118,8 @@ top of the page. It is visible all time, to make it easy for the user to move to
     - Figma was used to create the [wireframes](#wireframes) during the design process.
 1. [Chrome-DevTools:](https://developer.chrome.com/docs/devtools/)
     - Chrome DevTools was used to test responsiveness on all devices,to inspect html/css, and to debug the application.
+1.  [Am I Responsive?](http://ami.responsivedesign.is/)
+    - Am I Responsive? was used to create the screenshot of the website for all devices, the first image of the README.
 
 
 
@@ -113,8 +127,9 @@ top of the page. It is visible all time, to make it easy for the user to move to
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](assets/validation/html_validation.JPG)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](assets/validation/css_validation.JPG)
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](assets/validation/html-val.JPG)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](assets/validation/css-val.JPG)
+-   [JSHint JavaScript Validator](https://jshint.com/) - [Results](assets/validation/jshint.JPG)
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -200,9 +215,9 @@ $ git clone https://github.com/nno24/javascript-p02
 Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
 ## Credits
-1. My Codeinstitute mentor for contructive support during the project.
-2. Nikolay Cranner's artwork and media/music.
-3. Friends and family for critical feedback during review.
+1. Nikolay Cranner's artwork and media/music.
+2. Friends and family for critical feedback during review.
+3. Coding ideas on how to validate input fields for the contact form [here](https://www.w3schools.com/js/js_validation.asp)
 
 ### Code
 
@@ -224,6 +239,6 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Acknowledgements
 
--   My Mentor for continuous helpful feedback.
+-   My Mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/?originalSubdomain=ng) for continuous helpful feedback.
 
 -   Tutor support at Code Institute for their support.
