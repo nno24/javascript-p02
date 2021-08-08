@@ -5,6 +5,10 @@ function sendEmail(event){
         visitorEmail: document.getElementById('visitor-email').value,
         message: document.getElementById('message').value,
     };
+    let validate = validateForm(msgForm.subject,msgForm.visitorEmail,msgForm.message);
+    if ( validate == false) {
+        return false;
+    }
     emailjs.send('service_oos6518','template_pvbbqr9',msgForm,'user_kiqzH3B0iil4Aqd5GL188');
     contactForm.reset();
     greetingSummary(msgForm.subject,msgForm.message);
@@ -29,6 +33,29 @@ function greetingSummary(subj,msg) {
         contactSection.appendChild(summary);
         console.log(summary);
     
+}
+
+function validateForm(subj,addr,msg) {
+    //Make sure the subject field is not only spaces
+    if ( !subj.trim().length ) {
+        alert("Your subject can't be empty..");
+        return false;
+    }
+
+    //Make sure message field is not only spaces
+    if ( !msg.trim().length ) {
+        alert("Your message can't be empty..");
+        return false;
+    }
+
+    //Simple email dot validation
+    if ( !addr.includes('.')) {
+        alert("Please fill out your email correctly..");
+        return false;
+    }
+
+
+
 }
 
 /*Event listener for the submit event*/
