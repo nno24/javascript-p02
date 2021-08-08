@@ -55,7 +55,6 @@ function validateForm(subj,addr,msg) {
     }
 
 
-
 }
 
 /*Event listener for the submit event*/
