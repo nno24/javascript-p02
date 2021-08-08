@@ -118,7 +118,6 @@
             <form method="POST" action="/send" id="contact-form">
                 <input type="email" name="visitor-email" placeholder="your email" id="visitor-email" required>
                 <input type="text" name="subject-email" placeholder="subject" id="subject" required>
-             <!--   <input type="text" name="freetext-email" placeholder="your message" id="message" required>-->
                 <textarea name="freetext-email" id="message" placeholder="your message" required></textarea>
                 <input type="submit" name="email-submit" value="Submit">
             </form>
@@ -150,8 +149,8 @@
             <p class="copyright" >©2021Nikolay Cranner</p>
         </div>
     </footer>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-    <script type="text/javascript">
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script>
         (function() {
             emailjs.init("user_kiqzH3B0iil4Aqd5GL188");
         })();
