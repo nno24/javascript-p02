@@ -1,104 +1,229 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<h1 align="center">Nikolay Cranner - Artistpage</h1>
 
-Welcome nno24,
+[View the live project here.](https://nno24.github.io/artistpage/)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. The last update to this file was: **July 2, 2021**
+This is the official artistpage for Nikolay Cranner. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for existing/potential fans and business persons.
 
-## Gitpod Reminders
+<h2 align="center">
+    <img src="assets/images/screenshots/devices/iphone5.png">
+</h2>
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## User Experience (UX)
+  ## Epic
+  As a user I want to easily and efficiently learn more, browse or purchase from, and get in touch with the artist.
+-   ### User stories
 
-`python3 -m http.server`
+    -   #### New potential/existing fan
 
-A blue button should appear to click: _Make Public_,
+        1. I want to easily and efficiently follow the artist by accessing the social media links.
+        2. I want to easily and efficiently learn more about the artist.
+        3. I want to easily and efficiently browse and/or purchase the artist's contents.
+        4. I want to easily and efficiently get in touch with the artist for booking inqueries.
 
-Another blue button should appear to click: _Open Browser_.
+    -   #### New potential business person
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+        1. I want to easily and efficiently follow the artist by accessing the social media links.
+        2. I want to easily and efficiently learn more about the artist.
+        3. I want to easily and efficiently browse the artist's contents.
+        4. I want to easily and efficiently get in touch with the artist for business inqueries.
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+-   ### Design
+    -   #### Colour Scheme
+        -   The three main colours used are white, grey and black.
+            Embedded media elements and pictures have original color.
+    -   #### Typography
+        -   The Apple-system font is the main font used throughout the whole website with BlinkMacSystemFont as the fallback font in case for any reason the font isn't being imported into the site correctly. Apple-system is a clean font used frequently in web design, so it is both attractive and appropriate.
+    -   #### Imagery
+        -   The background image of the artist creates a modern contrast with the foreground elements and a cathy vibe. The fallback background color is set to rbg(27,27,27).
+        The other images used througout the page are pictures of the artist and cover art pictures
+        used for his songs.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+        #### Media
+        -  The media elements used thorughout the page, songs and videos, are mostly embedded elements from streaming platforms and online stores. It creates an efficient and easy way
+        for a user to browse or purchase the artist's contents.
 
-To log into the Heroku toolbelt CLI:
+        #### Social Media
+        -  The footer has all social media links with icons making it easy for the user to click
+        and follow.
+    <h2 id="wireframes"></h2>
+-   ### Wireframes/Mockup
+-   The desktop version of the mockup can be found [here](assets/wireframes/desktop_full.png)
+-   The mobile version of the mockup can be found [here](assets/wireframes/mobile_full.png)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
 
-## Release History
+## Features
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+-   Responsive on all device sizes
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+-   Interactive elements
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+-   Media contents, music and video, are playable directly on the page
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+-   Cover art's representing songs are clickable, and will take you to the song on a streaming platform
+-   Home button is the artist logo on the top left, when clicking this it will take you to the
+top of the page. It is visible all time, to make it easy for the user to move to the top.
+-   Navigation bar is hidden in mobile view, but visible for tablet and desktop
+<h2 align="center">
+    <img src="assets/images/screenshots/devices/ipad-pro-about.JPG">
+    <img src="assets/images/screenshots/devices/ipad-pro-music.JPG">
+</h2>
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Features to be added/fixed
+-   Complete submit button to be fully functional.
+-   Make images under “About” section smaller, becomes too big on desktop.
+-   Make the social media links more accesible.
+-   Indicate on the cover arts that they are clickable.
+-   When cover art is clicked, add a selection dialogue for the user to select preferred platform.
+-   Add more songs and videos to “Music” section
+-   Add more items for purchase, then add another section called “store”.
+-   Add funding/support option for volunteers/fans.
+-   Add calendar with live shows, own section.
+-   Add artistic animation to give the page a more dynamic feel.
+-   Add scrolling hint, so that the user is informed the webpage has more content and need to be scrolled.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+## Technologies Used
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Languages Used
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Frameworks, Libraries & Programs Used
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+1. [Hover.css:](https://ianlunn.github.io/Hover/)
+    - Hover.css was used on the navigation menu.
+11. [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+1. [GitHub:](https://github.com/)
+    - GitHub is used to store the projects code after being pushed from Git.
+1. [GitPod:](https://gitpod.io/)
+    - GitPod is used as the IDE for the project.
+1. [Figma:](https://figma.com/)
+    - Figma was used to create the [wireframes](#wireframes) during the design process.
+1. [Chrome-DevTools:](https://developer.chrome.com/docs/devtools/)
+    - Chrome DevTools was used to test responsiveness on all devices,to inspect html/css, and to debug the application.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## Testing
 
-------
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-## FAQ about the uptime script
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](assets/validation/html_validation.JPG)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](assets/validation/css_validation.JPG)
 
-**Why have you added this script?**
+### Testing User Stories from User Experience (UX) Section
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+-   #### New potential/existing fan
 
-**How will this affect me?**
+    1. I want to easily and efficiently follow the artist by accessing the social media links.
+        1. The user can easally access the artists social media in the footer. However this can be enhanced, because you have to scroll all the way down to the bottom of the page.
+    2. I want to easily and efficiently learn more about the artist.
+        1. The user can easily and efficiently learn more about the artist by selecting "About" from the navigation menu, or by scrolling half page.
+    3. I want to easily and efficiently browse and/or purchase the artist's contents.
+        1. The user can easily and efficiently  browse and/or purchase content from the "Music" section, either by scrolling or by selecting "Music" from the navigation.
+    4. I want to easily and efficiently get in touch with the artist for booking inqueries.
+        1. The user can easily and efficiently get in touch with the artist by selecting "Contact" from the navigation menu, or by scrolling down to the bottom of the page.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+-   #### New potential business person
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+    1. I want to easily and efficiently follow the artist by accessing the social media links.
+        1. The user can easally access the artists social media in the footer. However this can be enhanced, because you have to scroll all the way down to the bottom of the page.
+    2. I want to easily and efficiently learn more about the artist.
+        1. The user can easily and efficiently learn more about the artist by selecting "About" from the navigation menu, or by scrolling half page.
+    3. I want to easily and efficiently browse the artist's contents.
+        1. The user can easily and efficiently  browse content from the "Music" section, either by scrolling or by selecting "Music" from the navigation.
+    4. I want to easily and efficiently get in touch with the artist for business inqueries.
+        1. The user can easily and efficiently get in touch with the artist by selecting "Contact" from the navigation menu, or by scrolling down to the bottom of the page.
+ 
+### Further Testing
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+-   The Website was tested on Google Chrome, Vivaldi, Microsoft-Edge, Internet Explorer and Firefox .
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone10 X, Huawei P20 Pro, iPhone5, iPad and iPad pro.
+-   A large amount of testing was done to ensure that all pages were linking correctly.
+-   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
-**So….?**
+### Known Bugs
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+-   During test sessions, it was observed that the "home button", which is the artist logo in the top left, was not taking the page back to top. This was observed on chrome, but saw it rarely.
 
-**Can I opt out?**
+## Deployment
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+### GitHub Pages
+
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/nno24/artistpage)
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site [link](https://github.com/nno24/artistpage) in the "GitHub Pages" section.
+
+### Forking the GitHub Repository
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/nno24/artistpage)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/nno24/artistpage)
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 3.
 
 ```
-pkill uptime.sh
-rm .vscode/uptime.sh
+$ git clone https://github.com/nno24/artistpage
 ```
 
-**Anything more?**
+7. Press Enter. Your local clone will be created.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+```
+$ git clone https://github.com/nno24/artistpage
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
 
----
+Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
-Happy coding!
+## Credits
+1. My Codeinstitute mentor for contructive support during the project.
+2. Nikolay Cranner's artwork and media/music.
+3. Friends and family for critical feedback during review.
+
+### Code
+
+-   The about pictures of the artist came from [Instagram](https://www.instagram.com/nikolay_cranner/)
+
+-   The embedded videos came from [Youtube](https://www.youtube.com/channel/UC5ntUYnW40FCXeuowJYUOPw)
+
+-   The embedded music for purchase came from [Beatport](https://www.beatport.com/artist/nikolay-cranner/709007)
+
+-   The embedded music for streaming came from [Spotify](https://open.spotify.com/artist/4NvkvOJ0mDM7QjdzOZLDRd?si=QshNNTHJQRab-LCm2i6Osw&dl_branch=1)
+
+### Content
+
+-   All content was written by the developer.
+
+### Media
+
+- Proprietary images and logo was used with acceptance from Nikolay Cranner.
+
+### Acknowledgements
+
+-   My Mentor for continuous helpful feedback.
+
+-   Tutor support at Code Institute for their support.
